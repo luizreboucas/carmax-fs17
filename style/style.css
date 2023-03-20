@@ -5,7 +5,8 @@
 }
 .fundo{
     background-image: url("../imagens/imageFundo.jpg");
-    background-repeat: no-repeat;
     background-size: cover;
+    height: 100vh;
+   
     
 }
