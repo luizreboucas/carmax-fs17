@@ -4,9 +4,7 @@
     box-sizing: border-box;
 }
 .fundo{
-    background-image: url("../imagens/imageFundo.jpg");
+    background-image: url("../assets/imageFundo.jpg");
     background-size: cover;
     height: 100vh;
-   
-    
 }
