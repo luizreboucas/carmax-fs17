@@ -136,11 +136,33 @@
     border-radius: 50%;
 }
 
+.pesquisa {
+    border: none;
+    background-color: #fff;
+    margin: 10px 30px;
+    width: 100%;
+    border-radius: 5px;
+    height: 48px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.pesquisa :hover {
+    border: 3px solid #0533617d;
+}
+
+#textobusca {
+    border: #6d747a;
+    width: 100%;
+    transition: 3s;
+    float: left;
+}
+
 body {
     background-image: url("../assets/imageFundo.jpg");
     background-size: cover;
     height: 100vh;
-   
+
 
 }
 
