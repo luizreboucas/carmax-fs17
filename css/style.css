@@ -10,7 +10,6 @@
 .cabecalho {
     display: flex;
     justify-content: space-between;
-    padding: 0 32px;
     height: 80px;
 }
 
@@ -22,7 +21,7 @@
 
 .logo {
     width: 140px;
-    padding: 8px 12px 8px 8px;
+    padding: 8px 12px 8px 0px;
 }
 
 .menu {
@@ -140,22 +139,26 @@ body {
     background-image: url("../assets/imageFundo.jpg");
     background-size: cover;
     height: 100vh;
+    padding: 0rem 10rem 0rem 10rem;
    
 
 }
 
 .card-esquerda {
-    width: 40%;
-    height: 40%;
+    width: 450px;
+    min-height: 40%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    
+    
 }
 
 .card-esquerda h1 {
     font-size: 70px;
     font-weight: bold;
-    color: #123061;
+    color: #053361;
+    line-height: 70px;
 }
 
 .card-esquerda h4 {
@@ -165,12 +168,59 @@ body {
 }
 
 .card-esquerda button {
-    background-color: #fbff00;
-    color: #123061;
+    background-color: #ffd900;
+    color: #053361;
     width: 16rem;
-    font-size: 20px;
+    font-size: 17px;
     font-weight: 500;
     padding: 1rem 0rem;
+    margin-top: 2rem;
     border-radius: 5px;
     border: none;
+}
+.chamada span{
+    font-size: 25px;
+    position: relative;
+    top: -25px;
+}
+
+.fa-circle-info{
+    font-size: 15px;
+}
+.feedback{
+    
+    position: fixed;
+    right: 0px;
+    bottom: 130px;
+    top: auto;
+}
+.fa-message{
+    background-color: #1773cf;
+    font-size: 23px;
+    color:white;
+    padding: 15px;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 10px;
+    right: 30px;
+
+    
+}
+
+@media (max-width: 1150px){
+    .fundo{
+        display: flex;
+        justify-content: center;
+        
+    }
+    .card-esquerda{
+       
+        align-items: center;
+    }
+    .card-esquerda h1{
+        text-align: center;
+    }
+    body{
+        padding: 0rem 3rem 0rem 3rem;
+    }
 }
