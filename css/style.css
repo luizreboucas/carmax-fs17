@@ -145,11 +145,12 @@ body {
 }
 
 .card-esquerda {
-    width: 40%;
-    height: 40%;
+    width: 450px;
+    min-height: 40%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    
     
 }
 
@@ -167,7 +168,7 @@ body {
 }
 
 .card-esquerda button {
-    background-color: #ffd900;;
+    background-color: #ffd900;
     color: #053361;
     width: 16rem;
     font-size: 17px;
@@ -186,7 +187,40 @@ body {
 .fa-circle-info{
     font-size: 15px;
 }
+.feedback{
+    
+    position: fixed;
+    right: 0px;
+    bottom: 130px;
+    top: auto;
+}
+.fa-message{
+    background-color: #1773cf;
+    font-size: 23px;
+    color:white;
+    padding: 15px;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 10px;
+    right: 30px;
+
+    
+}
 
 @media (max-width: 1150px){
-    
+    .fundo{
+        display: flex;
+        justify-content: center;
+        
+    }
+    .card-esquerda{
+       
+        align-items: center;
+    }
+    .card-esquerda h1{
+        text-align: center;
+    }
+    body{
+        padding: 0rem 3rem 0rem 3rem;
+    }
 }
