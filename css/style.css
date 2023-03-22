@@ -136,10 +136,11 @@
     border-radius: 50%;
 }
 
-.fundo {
+body {
     background-image: url("../assets/imageFundo.jpg");
     background-size: cover;
     height: 100vh;
+   
 
 }
 
